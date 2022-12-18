@@ -1,0 +1,15 @@
+.place__website{
+    width:calc(100% - 32px);
+    margin:32px auto 0;
+    padding: 0;
+    list-style: none;
+    grid-area: place__website;
+}
+
+@media screen and (min-width: 768px) {
+    .place__website{
+        width:100%;
+        margin:0;
+        align-self: end;
+    }
+}

@@ -1,0 +1,19 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0;
+    color: white;
+}
+
+@media screen and (min-width:1024px) {
+    .lead{
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .lead{
+        max-width: calc(100% - 296px);
+    }
+}
