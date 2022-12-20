@@ -1,17 +1,17 @@
 .cover{
-    width:100%;
-    padding:0;
-    margin:0;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
+  width:100%;
+  padding:0;
+  margin:0;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 
 @media screen and (min-width: 1280px) {
-    .cover{
-        width: calc(100% - 96px);
-        margin: 0 auto 0;
-        padding: 0;
-        max-width: 1184px;
-    }
+  .cover{
+      width: calc(100% - 96px);
+      margin: 0 auto 0;
+      padding: 0;
+      max-width: 1184px;
+  }
 }
